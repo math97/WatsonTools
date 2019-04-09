@@ -1,5 +1,8 @@
+module.exports=(()=>{
 const autentication = require('./autentication');
-const credentials = require('./credentials');
+const {credentials} = require('./credentials');
+
+if(autentication) console.log(`Logado com Sucesso `);
 
 
 const getIntent=(intent)=>{
@@ -9,7 +12,7 @@ const getIntent=(intent)=>{
         intent: intent
       };
       
-      service.getIntent(params, function(err, response) {
+      autentication.getIntent(params, function(err, response) {
         if (err) {
           console.error(err);
         } else {
@@ -29,5 +32,7 @@ const updateIntent=()=>{
 
 const listIntent=()=>{
 
-    
 };
+
+
+})()
