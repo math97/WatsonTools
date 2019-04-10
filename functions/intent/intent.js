@@ -1,5 +1,5 @@
 const autentication = require('./autentication')
-const credentials = require('../credentials')
+const credentials = require('../../authentication/credentials')
 
 const getIntent = intent => {
   const params = {

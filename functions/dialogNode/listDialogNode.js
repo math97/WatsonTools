@@ -1,5 +1,5 @@
 const authentication = require('../authentication')
-const credentials = require('../credentials')
+const credentials = require('../../authentication/credentials')
 
 function listDialogNodes() {
   const params = {
