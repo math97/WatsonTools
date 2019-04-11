@@ -1,8 +1,8 @@
-const intent=require('./functions/intent')
+const intent = require('./functions/intent')
 
-async function main(){
-    var i= await intent.getIntent('teste');
-    console.log(`intent ${i}`)
+async function main() {
+  var i = await intent.createIntent('Teste_Utilizacao_Codigote')
+  console.log(`intent ${i}`)
 }
-//main()
-intent.getIntent('teste')
+main()
+// intent.getIntent('Teste_Utilizacao_Codigo')
