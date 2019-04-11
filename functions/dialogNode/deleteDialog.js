@@ -1,4 +1,4 @@
-const authentication = require('../authentication')
+const authentication = require('../../authentication/authentication')
 const credentials = require('../../authentication/credentials')
 const components = require('../../components/dialogParameters')
 

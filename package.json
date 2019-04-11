@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/math97/WatsonTools#readme",
   "dependencies": {
+    "jest": "^24.7.1",
+    "solid": "^0.2.1",
     "watson-developer-cloud": "^4.0.1"
   }
 }
