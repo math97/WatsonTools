@@ -1,3 +1,8 @@
 const intent=require('./functions/intent')
-var i=intent.getIntent('teste');
-console.log(i)
+
+async function main(){
+    var i= await intent.getIntent('teste');
+    console.log(`intent ${i}`)
+}
+//main()
+intent.getIntent('teste')
