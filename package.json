@@ -26,7 +26,7 @@
   "homepage": "https://github.com/math97/WatsonTools#readme",
   "dependencies": {
     "dotenv": "^8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "ibm-watson": "^4.5.4",
     "node-cron": "^2.0.3",
